@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+ <properties version="1.0" ios_bundle="com.yourdomain." encryptCode="0" osx_domain="giderosmobile.com" html5_pack="1" touchToMouse="1" scaleMode="3" win_org="GiderosMobile" logicalHeight="800" disableSplash="0" atv_bundle="com.yourdomain.yourapp-atv" splash_v_image="" osx_bundle="com.yourdomain." html5_fbinstant="0" windowWidth="0" html5_mem="256" macos_category="5" osx_signingId="" splashScaleMode="0" win_domain="giderosmobile.com" osx_org="GiderosMobile" html5_symbols="0" macos_bundle="com.yourdomain.yourapp-macos" splash_h_image="" encryptAssets="0" orientation="1" vsync="1" app_name="" html5_wasm="1" tv_icon="" logicalWidth="480" architecture="0" html5_fbload="100" build_number="1" iosDevice="0" html5_host="" exportMode="2" backgroundColor="#ffffff" retinaDisplay="3" osx_installerId="" version_code="1" mouseToTouch="1" fps="30" mainluaOnly="0" osx_category="5" winrt_package="com.yourdomain.yourapp" autorotation="0" windowHeight="0" mouseTouchOrder="0" html5_crash="" winrt_org="GiderosMobile" app_icon="">
+  <imageScales/>
+  <plugins>
+   <plugin enabled="1" name="Easing"/>
+   <plugin enabled="1" name="FastNoise"/>
+   <plugin enabled="1" name="JSON"/>
+   <plugin enabled="1" name="ReactPhysics3D"/>
+   <plugin enabled="1" name="SceneManager"/>
+  </plugins>
+  <exports>
+   <export name="APK">
+    <property value="" name="androidPath"/>
+    <property value="" name="androidSdk"/>
+    <property value="26" name="androidTarget"/>
+    <property value="" name="androidTools"/>
+    <property value="0" name="buildAab"/>
+    <property value="1" name="buildApk"/>
+    <property value="0" name="deployApk"/>
+    <property value="" name="javaPath"/>
+    <property value="" name="keyAlias"/>
+    <property value="" name="keyStore"/>
+    <property value="com.mokatun_fp" name="packageName"/>
+    <property value="0" name="timestampApk"/>
+   </export>
+  </exports>
+ </properties>
+ <folder name="3d_factory">
+  <file name="assets/3d_factory/3DMESH.lua"/>
+  <file name="assets/3d_factory/3Dbox.lua"/>
+  <file name="assets/3d_factory/3Dconcaves.lua"/>
+  <file name="assets/3d_factory/3Dcylinder.lua"/>
+  <file name="assets/3d_factory/3Dheightfield.lua"/>
+  <file name="assets/3d_factory/3Dplane.lua"/>
+  <file name="assets/3d_factory/3Dsphere.lua"/>
+  <file name="assets/3d_factory/fbx.lua"/>
+  <file name="assets/3d_factory/obj.lua"/>
+ </folder>
+ <folder name="3dbase">
+  <file name="assets/3dbase/3DAnimation.lua"/>
+  <file name="assets/3dbase/3DGdxLoader.lua"/>
+  <file name="assets/3dbase/3DLighting.lua"/>
+  <file name="assets/3dbase/3DObjLoader.lua"/>
+  <file name="assets/3dbase/3DShaders.lua"/>
+  <file excludeFromExecution="1" name="assets/3dbase/3DShapes.lua"/>
+  <file name="assets/3dbase/3DView.lua"/>
+  <file name="assets/3dbase/G3DFormat.lua"/>
+ </folder>
+ <folder name="luashader">
+  <file name="assets/luashader/effects.lua"/>
+  <file name="assets/luashader/luac_codegen.lua"/>
+  <file name="assets/luashader/luac_loader.lua"/>
+  <file name="assets/luashader/luashader.lua"/>
+ </folder>
+ <folder name="models"/>
+ <folder name="scenes">
+  <file name="assets/scenes/levelX.lua"/>
+ </folder>
+ <folder name="textures">
+  <file name="assets/textures/Alternating Mudbrick.jpg"/>
+  <file name="assets/textures/Aurichalcite Deposit.jpg"/>
+  <file name="assets/textures/Grassy Way.jpg"/>
+  <file name="assets/textures/Purple Crystal512.jpg"/>
+  <file name="assets/textures/trp.png"/>
+ </folder>
+ <folder name="tiled">
+  <file excludeFromExecution="1" name="assets/tiled/level01.lua"/>
+  <file name="assets/tiled/level01.tmx"/>
+  <file name="assets/tiled/tiled_levels.lua"/>
+ </folder>
+ <file name="assets/init.lua"/>
+ <file name="assets/main.lua"/>
+</project>

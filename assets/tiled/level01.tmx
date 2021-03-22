@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.4" tiledversion="2020.06.25" orientation="orthogonal" renderorder="left-down" width="64" height="64" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="159">
+ <editorsettings>
+  <export target="level01.lua" format="lua"/>
+ </editorsettings>
+ <objectgroup color="#00ff00" id="2" name="level" tintcolor="#55aaff">
+  <object id="23" name="groundA" x="0" y="0" width="672" height="288"/>
+  <object id="155" name="heightfield" x="64" y="112" width="16" height="16" rotation="15"/>
+  <object id="157" name="box" x="96" y="64" width="32" height="32"/>
+  <object id="158" name="cylinder" x="32" y="64" width="16" height="16">
+   <ellipse/>
+  </object>
+ </objectgroup>
+</map>
